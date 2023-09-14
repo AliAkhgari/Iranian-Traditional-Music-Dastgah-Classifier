@@ -13,6 +13,14 @@ This project has several parts:
 In this project, we have selected features from three categories: temporal features, spectral features, and harmonic features.
 We employed two feature extraction methods: the first method (Feature Set 1) utilizes all three feature types, while the second method (Feature Set 2) exclusively utilizes spectral and temporal features.
 
+## Feature Selection
+Dimension reduction in audio files aims to trim feature count while retaining crucial information and eliminating redundancy. The methods implemented in this project to reduce the dimensions of the feature vector are:
+- Principal Component Analysis
+- Linear Discriminant Analysis
+- Forward Selection
+- Backward Elimination
+
+
 ## Classification
 Following the splitting of the dataset into training and testing sets, we proceed to standardize them and subsequently apply the following machine learning algorithms for classification:
 - K-Nearest Neighbors
