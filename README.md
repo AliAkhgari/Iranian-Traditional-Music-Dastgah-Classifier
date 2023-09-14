@@ -29,3 +29,8 @@ Following the splitting of the dataset into training and testing sets, we procee
 - Multilayer Perceptron
 - Logistic Regression
 - Long Short-Term Memory
+
+## Clustering
+Clustering categorizes data based on common traits, with the goal of finding similarities within groups and differences between them. In this project, we've implemented the following clustering methods:
+- Hierarchical Clustering (agglomeration)
+- Partitional Clustering (k-means)
