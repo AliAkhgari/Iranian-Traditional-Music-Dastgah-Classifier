@@ -12,3 +12,12 @@ This project has several parts:
 ## Feature Extraction
 In this project, we have selected features from three categories: temporal features, spectral features, and harmonic features.
 We employed two feature extraction methods: the first method (Feature Set 1) utilizes all three feature types, while the second method (Feature Set 2) exclusively utilizes spectral and temporal features.
+
+## Classification
+Following the splitting of the dataset into training and testing sets, we proceed to standardize them and subsequently apply the following machine learning algorithms for classification:
+- K-Nearest Neighbors
+- Support Vector Machine
+- Extreme Gradient Boosting
+- Multilayer Perceptron
+- Logistic Regression
+- Long Short-Term Memory
