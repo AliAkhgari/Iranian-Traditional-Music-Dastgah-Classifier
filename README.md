@@ -8,3 +8,7 @@ This project has several parts:
 - Remove data with incorrect formatting
 - Convert data to the WAV format
 - Split audio files into segments of uniform length
+
+## Feature Extraction
+In this project, we have selected features from three categories: temporal features, spectral features, and harmonic features.
+We employed two feature extraction methods: the first method (Feature Set 1) utilizes all three feature types, while the second method (Feature Set 2) exclusively utilizes spectral and temporal features.
